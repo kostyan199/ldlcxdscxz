@@ -1,0 +1,3800 @@
+*{
+    font-size: 10px;
+    font-family:'Oxygen', sans-serif;
+    box-sizing: border-box;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    max-width: 1600px;
+}
+
+.wrapper {
+ 
+    max-width: 1900px;
+    margin: 0 auto;
+  
+   
+}
+.header {
+ 
+}
+.background-gray{
+    background-color: #e5e5e5;
+}
+.container {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__img{
+    margin-right: 100px;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header ul >li{
+    margin-right: 40px;
+    position: relative;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.header ul li:hover >ul{
+    display: block;
+  
+}
+
+
+.header li ul{
+    display: none;
+    position: absolute;
+    margin: 0%;
+    padding: 0;
+    white-space: nowrap;
+    border-top: solid 3px  #e22a25;
+    top: 86px;
+    z-index: 100;
+    background-color: white;
+  
+
+}
+.header li ul li{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid  #dcdadb;
+    padding: 10px 20px;
+    padding-right: 30px;
+    text-align: start;
+    margin-right: 0;
+
+}
+.header li ul li:hover{
+    background-color: #dcdadb;
+    transition: .3s ease;
+   
+}
+
+.header li ul li a{
+  
+    font-size: 1.6rem;
+    font-weight: 300;
+    color:  #333333;
+}
+.header span{
+    color:  #e22a25;
+    font-size: 1.8rem;
+    font-weight: 400;
+
+}
+
+
+.header ul li a:hover{
+    color:  #e22a25;
+    transition: .3s ease;
+}
+
+.header ul >li >a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color:  #333333;
+    
+}
+.header li ul li ul{
+    position: absolute;
+    left: 257px;
+    top: -3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 100;
+    
+}
+
+
+.header__contacts{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color:  #333333;
+  text-transform: uppercase;
+  background-color: #dadbdc;
+  padding: 10px 20px;
+
+}
+
+
+
+.header__contacts:hover{
+    background-color: #e22a25;
+    color: white;
+ transition: .3s ease;
+}
+
+.message{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color:  #333333;
+  text-transform: uppercase;
+  background-color: #dadbdc;
+  padding: 10px 20px;
+  border: none;
+}
+
+.message:hover{
+    background-color: #e22a25;
+    color: white;
+ transition: .3s ease;
+}
+
+
+.section {
+  
+
+}
+.container1{
+    max-width: 2000px;
+    overflow: hidden;
+}
+.background-img {
+position: relative;
+height: 300px;
+width: 100%;
+z-index: 10;
+font-size: 10rem;
+font-weight: 400;
+color:  black;
+padding-top: 150px;
+padding-left: 100px;
+}
+.background-img h1{
+    
+    position: absolute;
+    font-size: 3.4rem;
+font-weight: 700;
+color:  white;
+z-index: 10;
+animation:  text 5s 1;
+background:-webkit-linear-gradient(left,  rgb(98, 132, 172) 0%,rgba(125,185,232,0) 60%);
+left: 0;
+padding-left: 50px;
+
+
+}
+
+@keyframes text{
+    0%{
+        left: -1000px;
+    }
+}
+.background-img::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0;
+    background-image: url('../media/photo/background/bandeau-seul-seul-scaled.jpeg');
+    background-position: center;
+    z-index: 1;
+}
+
+.test1 {
+   background-image: url(../media/photo/background/viellissement-2.jpeg);
+   height: 240px;
+   width: 330px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   margin-right: 40px;
+   padding-top: 170px;
+   padding-left: 141px;
+ overflow: hidden;
+ 
+}
+.test1:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    
+}
+
+.test-text h1{
+    color: white;
+    font-size: 1.6rem;
+font-weight: 400;
+
+
+}
+.test2 {
+    background-image: url(../media/photo/background/test-clim-2.jpeg);
+    height: 240px;
+    width: 330px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 40px;
+    padding-top: 170px;
+   padding-left: 143px;
+}
+.test2:hover{
+    transform: scale(1.1);
+    transition:  0.5s;
+    
+}
+.test3 {
+    background-image: url(../media/photo/background/frottement-2.jpeg);
+    height: 240px;
+    width: 330px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 170px;
+   padding-left: 146px;
+  }
+  .test3:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    
+}
+.t1{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+
+.section {
+}
+.container {
+}
+.excellence{
+    padding-left: 40px;
+}
+
+.excellence h1{
+    font-size: 4rem;
+font-weight: 400;
+position: relative;
+margin-bottom: 60px;
+display: flex;
+flex-direction: column;
+
+}
+.excellence h1::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 2px;
+    width: 100px;
+    background-color:  #e22a25;;
+
+}
+.excellence h2{
+    font-size: 2rem;
+font-weight: 300;
+margin-bottom: 30px;
+line-height: 3.4rem;
+
+}
+.excellence h3{
+    font-size: 1.8rem;
+font-weight: 300;
+margin-bottom: 40px;
+letter-spacing: 0;
+line-height: 3.4rem;
+
+}
+.excellence h3 span{
+    font-size: 1.8rem;
+font-weight: 300;
+font-weight: bold;
+line-height: 3.4rem;
+}
+.section {
+}
+.container {
+    
+}
+.unique {
+     padding-left: 40px;
+     display: flex;
+    justify-content: space-between;
+}
+.unique ul{
+   list-style: none;
+   
+}
+.unique ul li{
+    position: relative;
+    margin: 1px 0 1px 0;
+}
+.unique ul li::before{
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: -24px;
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+    
+ }
+
+.unique h1{
+    font-size: 4rem;
+font-weight: 400;
+position: relative;
+margin-bottom: 60px;
+display: flex;
+flex-direction: column;
+
+
+}
+.unique h1::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 2px;
+    width: 100px;
+    background-color:  #e22a25;;
+
+}
+.unique h2{
+    font-size: 2rem;
+font-weight: 300;
+margin-bottom: 25px;
+line-height: 3.4rem;
+
+}
+.unique h3{
+    font-size: 2rem;
+font-weight: 300;
+margin-bottom: px;
+line-height: 3.4rem;
+
+}
+.unique1{
+    margin-right: 50px;
+}
+.container-unique{
+    display: flex;
+    justify-content: space-between;
+}
+.unique-photo{
+   position: relative;
+}
+.unique-photo img{
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.gestion{
+    padding-left: 40px;
+}
+
+.gestion h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gestion  h1::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 2px;
+    width: 100px;
+    background-color:  #e22a25;;
+
+}
+.gestion  h2{
+    font-size: 2rem;
+font-weight: 300;
+margin-top: 5px;
+margin-bottom: 5px;
+line-height: 3.4rem;
+
+}
+
+.footer {
+    background-image: url(../media/photo/background/ExoTest_files/footer-background.jpeg);
+    border-top:2px solid #e22a25;
+    background-position:-115px;
+}
+.container3 {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.footer-img {
+    margin-right: 250px;
+    position: relative;
+}
+.footer-img img{
+    position: relative;
+    z-index: 2;
+}
+
+
+.footer-text {
+    display: flex;
+    position: relative;
+}
+.footer-text h1{
+    font-size: 1.4rem;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 5px;
+line-height: 3.4rem;
+color: white;
+text-decoration: none;
+text-transform: uppercase; 
+margin-right: 150px;
+}
+.footer-text  a:hover{
+    color: #e5e5e5;
+    transition: .3s ease;
+}
+
+.footer-text a {
+    font-size: 1.4rem;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 5px;
+line-height: 2.4rem;
+color: white;
+text-decoration: none;
+}
+
+.footer-text ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-text ul li{
+    margin-bottom: 0;
+}
+.footer-list {
+    list-style: none;
+}
+.footer-text1 {
+}
+.footer-text1 h1{
+  font-size: 1.5rem;
+}
+.footer-text1 a:hover{
+    color: #e22a25;
+    transition: .3s ease;
+
+}
+.footer-text2 h1 {
+    font-size: 1.5rem;
+}
+.footer-text2 a:hover{
+    color: #e22a25;
+    transition: .3s ease;
+}
+
+.footer2 {
+    background-color: #e22a25;
+   
+    
+  
+    display: flex;
+    justify-content: center;
+    
+
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    
+
+    padding-left: 180px;
+}
+.footer-list li{
+    margin: 0 20px 0 20px;
+    position: relative;
+
+}
+.footer-list li a{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+.footer-list li p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.footer-list2,
+.footer-list3,
+.footer-list4{
+position: relative;
+}
+
+.footer-list2:before{
+    content: "";
+    top: 52%;
+    left: -28px;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+   background-color: white;
+    z-index: 10;
+    transform: rotate(90deg);
+}
+.footer-list3:before{
+    content: "";
+    top: 51%;
+    left: -22px;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+   background-color: white;
+    z-index: 10;
+    transform: rotate(90deg);
+}
+.footer-list4:before{
+    content: "";
+    top: 49%;
+    left: -23px;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+   background-color: white;
+    z-index: 10;
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+/* О НАС */
+
+
+
+.section {
+}
+.container {
+}
+.aboutUs {
+    background-image: url(..//media/photo/background/ExoTest_files/page-photogrammetrie.jpeg);
+    padding-top: 52px;
+    padding-bottom: 36px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.aboutUsText{
+    padding-right: 1200px;
+}
+.aboutUsText h1{
+    font-size: 4.5rem;
+font-weight: 400;
+line-height: 1.5;
+margin: 0%;
+color: white;
+}
+.section {
+}
+.container {
+    
+}
+.hou{
+  
+    flex-direction: column;
+    padding-left: 40px;
+    display: inline-block;
+}
+.hou h1{
+font-size: 4rem;
+font-weight: 400;
+position: relative;
+margin-bottom: 60px;
+display: flex;
+flex-direction: column;
+
+
+}
+.hou h1::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 2px;
+    width: 100px;
+    background-color:  #e22a25;
+}
+.p1 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 3.4rem;
+    margin: 20px 0 ;
+}
+.p1 span{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 3.4rem;
+    color:  #e22a25;
+}
+.p2 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 3.4rem;
+    margin: 20px 0 ;
+}
+.p2 span{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 3.4rem;
+}
+.hou a{
+   background-color:  #dadbdc;
+   display: inline-block;
+   padding: 10px 25px;
+   text-decoration: none;
+   color:#333333; 
+   text-transform: uppercase;
+   font-size: 2rem;
+   font-weight: 300;
+   margin-bottom: 25px;
+   line-height: 3.4rem;
+}
+.hou a:hover{
+    background-color: #e22a25;
+    color: white;
+    transition: .3s ease;
+}
+.section {
+}
+.container4 {
+    display: flex;
+}
+.strategie {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e8;;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.strategie h1{
+
+}
+.strategie h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+.strategie h1::before{
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        height: 2px;
+        width: 100px;
+        background-color:  #e22a25;
+}
+.strategie p{
+        font-size: 2rem;
+        font-weight: 300;
+        margin-bottom: 25px;
+        line-height: 3.4rem;
+        margin: 20px 0 ;
+
+}
+.strategie span{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 3.4rem;
+    color:  #e22a25;
+}
+
+.section {
+}
+.container4 {
+}
+.equipe {
+    display: flex;
+}
+.eqipe-photo{
+   position: relative;
+}
+.eqipe-photo::before{
+    position: absolute;
+    content: "";
+    height: 1088px;
+    width: 609px;
+    top: -158px;
+    left: 25px;
+    background-image: url(../media/photo/background/ExoTest_files/Reunion-equipe-1024x768.png);
+    background-repeat: no-repeat;
+    background-position: -169px;
+    padding-top: 322px;
+}
+.equipe-text {
+    display:flex;
+    flex-direction: column;
+    padding-left: 40px;
+    margin-right:50px ;
+}
+
+.equipe-text h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+.equipe-text h1::before{
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        height: 2px;
+        width: 100px;
+        background-color:  #e22a25;
+}
+.equipe-text h1{
+}
+.equipe-text p{
+    font-size: 2rem;
+        font-weight: 300;
+        margin-bottom: 25px;
+        line-height: 3.4rem;
+        margin: 11px 0;
+}
+.equipe-text ul{
+    list-style: none;
+}
+.equipe-text ul li{
+    position: relative;
+}
+.equipe-text ul li::before{
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: -24px;
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+}
+.section {
+    
+}
+.container {
+}
+.intensions {
+    padding-left: 40px;
+    background-color: #e5e5e8;;
+}
+.intensions h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+    .intensions h1::before{
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        height: 2px;
+        width: 100px;
+        background-color:  #e22a25;
+}
+
+.intensions p{
+    font-size: 2rem;
+        font-weight: 300;
+        margin-bottom: 25px;
+        line-height: 3.4rem;
+        margin: 11px 0;
+}
+.locationOur{
+    margin-bottom: 102px;
+}
+.section {
+   
+   
+}
+.container2 {
+}
+.location{
+    padding-left: 40px;
+    padding-bottom: 30px
+
+}
+.location h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+    .location h1::before{
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        height: 2px;
+        width: 100px;
+        background-color:  #e22a25;
+}
+.location p{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 3.4rem;
+    margin: 11px 0;
+}
+.location ul {
+    list-style: none;
+}
+.location ul li{
+    position: relative;
+}
+.location ul li::before{
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: -24px;
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+}
+.map{
+    position: relative;;
+    padding-top: -40px;
+}
+.map::before{
+    content: "";
+    position: absolute;
+    left: 0;
+   top:  -273px;
+    background-image: url(..//media/photo/background/ExoTest_files/exotest-group.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.map-text{
+    padding-top: 370px;
+}
+.section {
+    
+}
+.container5 {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+}
+.map-text{
+display: flex;
+justify-content: center;
+padding-left: 40px;
+
+}
+.mapT{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px
+}
+.map-text-adress{
+   margin-right: 40px;
+
+}
+.map-text-adress h1{
+    color: #333333;;
+    font-size: 2.2rem;
+    font-weight: 400;
+ 
+
+}
+.map-text-adress p{
+color: #333333;;
+font-size: 2rem;
+font-weight: 300;
+
+}
+.map-text-adress a{
+text-decoration: none;
+color:  #e22a25;;
+font-size: 2rem;
+font-weight: 300;
+}
+
+.section {
+}
+.acreditation p{
+    color: #333333;;
+font-size: 2rem;
+font-weight: 300;
+
+}
+.acreditationSection {
+    background-color: #e5e5e8;
+    padding-left: 40px;
+}
+.accreditationH1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+.accreditationH1::before{
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        height: 2px;
+        width: 100px;
+        background-color:  #e22a25;
+}
+.container6 {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+  
+}
+
+.accreditation-ISO-17025 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: -16px;
+}
+.accreditation-ISO-17025-1 {
+}
+.accreditation-ISO-17025-1 h1{
+    font-size: 3.8rem;
+    font-weight: 300;
+    
+}
+.accreditation-ISO-17025-2 {
+}
+.accreditationAuto {
+   
+}
+.accreditationAuto h2{
+    font-size: 2rem;
+font-weight: 300;
+    color: #333333;
+    background-color: white;
+    padding: 15px 20px;
+    border: black 1px solid;
+    padding-left: 57px;
+    margin-left: 109px;
+    position: relative;
+}
+.accreditationAuto::before{
+    content: "";
+    background-image: url(../media/photo/background/ExoTest_files/cogwheel_icon-icons.com_70237.png);
+    left: 0%;
+    top: 0;
+    height: 20px;
+    width: 20px;
+    
+    
+}
+
+.accreditationAuto h2 span{
+    font-size: 2rem;
+    font-weight: 700;
+        color: #333333;
+}
+.accreditationAuto h1{
+    font-size: 3.8rem;
+    font-weight: 300;
+}
+.accreditationAuto a{
+    font-size: 2rem;
+    font-weight: 700;
+    color:#e22a25;
+    text-decoration: none;
+}
+.accreditationLocal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 170px;
+}
+.accreditationLocal  h1{
+    font-size: 3.8rem;
+    font-weight: 300;
+}
+.accreditationLocal1 {
+}
+.accreditationLocal2 {
+}
+
+
+
+
+
+/* TESTS */
+
+
+.section {
+}
+.container{
+    
+}
+.tests-head{
+    background-image: url(..//media/photo/background/ExoTest_files/page-etancheite.jpeg);
+      background-size: cover;
+      background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+}
+.tests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+   
+}
+.test-head{
+    display: block;
+
+  
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.tests-head h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.tests a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 61px 46px;
+border: 1px white solid;
+background: rgb(255, 255, 255,0.7);
+  z-index: 1;
+  font-size: 3.5rem;
+  font-weight: 400;
+  white-space: nowrap;
+  color: #333333;
+  transition: .3s ease;
+}
+.tests a:hover{
+    background: rgb(255, 255, 255,0.8);
+}
+
+.test-climatique {
+    background-image: url(../media/photo/background/tests/CLIMATIQUE-VUE-LABO-1200x783.jpeg);
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    background-repeat: no-repeat;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-UF {
+    background-image: url(../media/photo/background/tests/Lumière-1200x900.jpeg);
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.test-btn{
+   
+    display: inline-block;
+    padding: 15px 40px;
+    margin-top: 20px;
+}
+
+.test-btn a{
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    
+}
+.test-btn a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+.test-endurance {
+    background-image: url(../media/photo/background/tests/FONCTIONNEL-CHOCS.jpeg);
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test-tightness {
+    background-image: url(../media/photo/background/tests/Etanchéité-2-768x1024.jpeg);
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test-corrosion{
+    
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+
+
+
+/* TESTS CLIMATE */
+
+
+
+
+.section {
+}
+.container {
+}
+
+.tests-climate-head{
+    background-image: url(..//media/photo/background/ExoTest_files/essais-climatiques.jpeg);
+      background-size: cover;
+      background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+}
+.tests-climate {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-bottom: 100px;
+}
+.tests-climate a{
+  display: inline-block;
+text-decoration: none;
+padding: 61px 46px;
+border: 1px white solid;
+background: rgb(255, 255, 255,0.7);
+z-index: 1;
+font-size: 2.4rem;
+font-weight: 400;
+white-space: nowrap;
+color: #333333;
+transition: .3s ease;  
+}
+.tests-climate a:hover{
+    background: rgb(255, 255, 255,0.8);
+}
+.test-climate-head{
+    display: block;
+
+  
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.test-climate-head h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+
+}
+.test {
+}
+.test-vrt {
+    background-image: url(../media/photo/background/tests/CLIMATIQUE-VUE-LABO-1200x783.jpeg);
+    height: 420px;
+    width: 620px;
+    background-repeat: no-repeat;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test-btn {
+}
+.test-term-chock {
+    background-image: url(../media/photo/testsDurabilité/test_climat/Choc-thermique-3-scaled-e1618521438436-1200x783.jpeg);
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    background-repeat: no-repeat;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test-big-volume {
+    background-image: url(../media/photo/testsDurabilité/test_climat/ATEX2-1200x795.jpeg);
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    background-repeat: no-repeat;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.test-explosive {
+    background-image: url(../media/photo/testsDurabilité/test_climat/ATEX3-1200x795.jpeg);
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    background-repeat: no-repeat;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test-corrosion{
+    background-image: url(../media/photo/testsDurabilité/BS1-1200x900.jpeg);
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.test-btn-climate{
+   
+    display: inline-block;
+    padding: 15px 40px;
+    margin-top: 20px;
+}
+
+.test-btn-climate a{
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    
+}
+.test-btn-climate a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+
+
+
+
+
+
+
+
+/* EXPERTISES */
+.section {
+}
+.expertises-head {
+    background-image: url(..//media/photo/background/ExoTest_files/page-brouillard-salin.jpeg);
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  overflow-x:hidden;
+}
+.container {
+}
+.expertise-head {
+    display: block;
+
+  
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.expertise-head h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+
+}
+.expertises {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 100px;
+}
+.expertises a{
+    display: inline-block;
+  text-decoration: none;
+  padding: 61px 46px;
+  border: 1px white solid;
+  background: rgb(255, 255, 255,0.7);
+  z-index: 1;
+  font-size: 2.4rem;
+  font-weight: 400;
+  white-space: nowrap;
+  color: #333333;
+  transition: .3s ease;  
+  }
+.expertises a:hover{
+    background: rgb(255, 255, 255,0.8);
+}
+.expertise {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.expertise-piece {
+    background-image: url(../media/photo/background/ExoTest_files/climatique2.jpeg);
+    background-size: contain;
+    height: 420px;
+    width: 620px;
+    background-repeat: no-repeat;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expertise-systeme-electr {
+    background-image: url(../media/photo/background/ExoTest_files/Monitoring2.jpeg);
+    background-size: contain;
+    height: 420px;
+    width: 620px;
+    background-repeat: no-repeat;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expertise-btn {
+    display: flex;
+    justify-content: center;
+    padding: 15px 40px;
+    margin-top: 20px;
+}
+
+.expertise-btn a{
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    
+}
+.expertise-btn a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+.expertise h1{
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 3.4rem;
+    margin-left: 40px;
+    text-align: start;
+}
+
+
+/* TEST UV */
+.section {
+}
+.tests-uv-head {
+    background-image: url(..//media/photo/uv/page-vieillisement-uv.jpeg);
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  overflow-x:hidden;
+}
+.container {
+}
+.test-uv-head {
+    display: block;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.test-uv-head h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+
+}
+.tests-uv {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 100px;
+}
+.tests-uv a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 61px 46px;
+    border: 1px white solid;
+    background: rgb(255, 255, 255,0.7);
+    z-index: 1;
+    font-size: 2.4rem;
+    font-weight: 400;
+    white-space: nowrap;
+    color: #333333;
+    transition: .3s ease; 
+    text-align: center;
+}
+.tests-uv a:hover{
+    background: rgb(255, 255, 255,0.8);
+}
+.test {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.wom {
+    background-image: url(../media/photo/uv/Lumière-1200x900.jpeg);
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    background-repeat: no-repeat;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test-btn-uv {
+    display: flex;
+    justify-content: center;
+    padding: 15px 40px;
+    margin-top: 20px;
+}
+.test-btn-uv a {
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+}
+.test-btn-uv a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+.test-soleil-simulation {
+    background-image: url(../media/photo/uv/Simulateur-solaire-Luxe-1200x900.jpeg);
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    background-repeat: no-repeat;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test-XR {
+    background-image: url(../media/photo/uv/ENSOLEILLEMENT-3-e1618522989383-1200x750.jpeg);
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    background-repeat: no-repeat;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test-uva {
+    background-image: url(../media/photo/uv/ultra-violet-1200x750.jpeg);
+    background-size: cover;
+    height: 420px;
+    width: 620px;
+    background-repeat: no-repeat;
+    margin: 60px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tests-uv-h1{
+  
+    flex-direction: column;
+    padding-left: 40px;
+    display: inline-block;
+}
+.tests-uv-h1 h1{
+font-size: 4rem;
+font-weight: 400;
+position: relative;
+margin-bottom: 60px;
+display: flex;
+flex-direction: column;
+
+
+}
+.tests-uv-h1 h1::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 2px;
+    width: 100px;
+    background-color:  #e22a25;
+}
+
+.tests-uv-h1 h2{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 3.4rem;
+    margin: 20px 0 ;
+}
+
+
+
+
+
+
+
+/* MARKET OF CLIENTS */
+
+.section {
+}
+.markets-head {
+    background-image: url(..//media/photo/background/ExoTest_files/solutions-clients.jpeg);
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  overflow-x:hidden;
+}
+.container {
+}
+.market-head {
+    display: block;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.market-head h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+
+}
+
+.section {
+}
+.container {
+}
+.markets {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 100px;
+}
+
+.markets a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 24px 73px;
+    border: 1px white solid;
+    background: rgb(255, 255, 255,0.7);
+    z-index: 1;
+    font-size: 2.4rem;
+    font-weight: 400;
+    white-space: nowrap;
+    color: #333333;
+    transition: .3s ease; 
+    text-align: center;
+}
+
+.markets a:hover{
+    background: rgb(255, 255, 255,0.8);
+}
+.market {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.auto {
+    background-image: url(../media/photo/background/ExoTest_files/voiture-800x533.jpeg);
+    background-size: contain;
+    height: 267px;
+    width: 417px;
+    background-repeat: no-repeat;
+    margin: 60px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.market-auto-btn {
+    display: flex;
+    justify-content: center;
+    padding: 15px 40px;
+    margin-top: 20px;
+}
+.market-auto-btn a {
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+}
+.market-auto-btn a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+
+.aero {
+    background-image: url(../media/photo/background/aile-avion-800x533.jpeg);
+    background-size: contain;
+    height: 267px;
+    width: 417px;
+    background-repeat: no-repeat;
+    margin: 60px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.orher {
+    background-image: url(../media/photo/background/ExoTest_files/nouveaux-horodateurs-ville-d-aurillac_3471364-800x533.jpeg);
+    background-size: contain;
+    height: 267px;
+    width: 417px;
+    background-repeat: no-repeat;
+    margin: 60px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ТЕСТЫ НА ВЫНОСЛИВОСТЬ */
+
+
+
+.section {
+}
+.test-adherance-head {
+background-image: url(..//media/photo/background/adherence/page-etancheite.jpeg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+overflow-x:hidden;
+display: flex;
+    
+}
+.container {
+    display: flex;
+}
+.adherance-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.adherance-head h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.adherance-head h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    position: relative;
+}
+.adherance-head h2::before{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background-color: #e22a25;
+    top: 43%;
+    left: -69px;
+    transform: rotate(122deg);
+}
+
+.type-adherances {
+    display: flex;
+    background-color: #dadbdc;;
+    padding-left: 100px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+.type-adherances h1{
+    margin-right: 50px;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+    position: relative;
+}
+.type-adherances h1::before{
+       position: absolute;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color: #e22a25;
+    top: 43%;
+    left: -63px;
+    transform: rotate(122deg);
+}
+.adhesion{
+    position: relative;
+}
+.adhesion::after{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color: #e22a25;
+    top: 43%;
+    left: 153px;
+    transform: rotate(122deg);
+}
+.information-adherances {
+    padding: 40px;
+}
+.information-adherances h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+   
+}
+.information-adherances li {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+   
+}
+.section {
+}
+.container {
+}
+.adherances {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 100px;
+}
+.adherances a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 24px 73px;
+    border: 1px white solid;
+    background: rgb(255, 255, 255,0.7);
+    z-index: 1;
+    font-size: 2.4rem;
+    font-weight: 400;
+    white-space: nowrap;
+    color: #333333;
+    transition: .3s ease; 
+    text-align: center;
+}
+.adherances a:hover{
+    background: rgb(255, 255, 255,0.8);
+}
+.adherance {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.adherance-mecanique {
+    background-image: url(../media/photo/background/adherence/FONCTIONNEL-CHOCS.jpeg);
+    background-size: contain;
+    height: 267px;
+    width: 417px;
+    background-repeat: no-repeat;
+    margin: 60px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test-adherance-btn {
+    display: flex;
+    justify-content: center;
+    padding: 15px 40px;
+    margin-top: 20px;
+}
+.test-adherance-btn a {
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+}
+.test-adherance-btn a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+.adherance-peinture {
+    background-image: url(../media/photo/background/adherence/FONCTIONNEL-CHOCS.jpeg);
+    background-size: contain;
+    height: 267px;
+    width: 417px;
+    background-repeat: no-repeat;
+    margin: 60px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ИСПЫТАНИЯ НА ГЕРМЕТИЧНОСТЬ */
+
+.section {
+}
+.test-tightness-head {
+    background-image: url(..//media/photo/background/adherence/page-etancheite.jpeg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+overflow-x:hidden;
+display: flex;
+}
+.container {
+    display: flex;
+}
+.tightness-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.tightness-head  h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+
+.type-tightness {
+    display: flex;
+    background-color: #dadbdc;;
+    padding-left: 100px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    
+}
+.type-tightness-text{
+    display: flex;
+ 
+}
+.type-tightness h1{
+    margin-right: 50px;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+    position: relative;
+    flex-wrap: nowrap;
+    
+}
+.type-tightness h1::before{
+    position: absolute;
+ content: "";
+ display: inline-block;
+ height: 2px;
+ width: 60px;
+ background-color: #e22a25;
+ top: 43%;
+ left: -70px;
+ transform: rotate(122deg);
+}
+.type-tightness-text-last::after{
+    position: absolute;
+ content: "";
+ display: inline-block;
+ height: 2px;
+ width: 60px;
+ background-color: #e22a25;
+ top: 43%;
+ left: 255px;
+ transform: rotate(122deg);
+}
+.type-tightness-text-last::before{
+    position: relative;
+}
+.information-tightness1 {
+    justify-content: space-between;
+    display: flex;
+}
+.information-tightness1-text {
+    padding: 205px 40px
+
+}
+.information-tightness1-text h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.information-tightness1-text li {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.information-tightness1-photo {
+}
+.information-tightness2 {
+    display: flex;
+}
+.information-tightness2-background {
+    background-color: #e22a25;
+    
+    height: 230px;
+    width: 800px;
+}
+.information-tightness2-text {
+    padding-left: 66px;
+    padding-top: 30px;
+}
+.information-tightness2-text h1{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+}
+.information-tightness2-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+position: relative;
+}
+
+
+
+/* ТЕСТ VRT */
+
+
+.section {
+}
+.test-vrtS-head {
+    background-image: url(..//media/photo/background/adherence/page-etancheite.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    display: flex;
+}
+.containerv-vrt {
+}
+.test-vrt-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.test-vrt-head  h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.vrt1 {
+    display: flex;
+    justify-content: space-between;
+}
+.vrt1-text {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.vrt1-text h1{
+
+}
+.vrt1-text h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+    .vrt1-text h1::before{
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        height: 2px;
+        width: 100px;
+        background-color:  #e22a25;
+}
+.vrt1-photo{
+    position: relative;
+    overflow: hidden;
+    width: 1407px;
+    height: 766px;
+}
+.vrt1-photo img{
+    
+    padding-top: 149px;
+}
+.vrt1-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.vrt1-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.vrt2 {
+    display: flex;
+
+}
+.vrt2-text {
+    padding-left: 96px;
+    padding-top: 40px;
+}
+.vrt2-text h2{  
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.vrt2-text h2 span{  
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+}
+.vrt2-text ul{
+    margin-bottom: 20px;
+
+}
+
+.vrt2-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+
+}
+.vrt2-text a{
+    list-style: none;
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    margin-left: 150px;
+
+}
+.vrt2-text a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+.vrt2-photo{
+    position: relative;
+    overflow: hidden;
+    width: 720px;
+    height: 766px;
+}
+.vrt2-photo img{
+ 
+}
+
+
+
+/* ТЕРМИЧЕСКИЙ ШОК */
+.section {
+}
+.test-chocS-head {
+}
+.container {
+}
+.test-choc-head {
+}
+.container-choc {
+}
+.choc1 {
+}
+.choc1-text {
+}
+.choc1-photo {
+}
+.choc2 {
+}
+.choc2-photo {
+}
+.choc2-text {
+}
+
+.section {
+}
+.test-chocS-head {
+    background-image: url(..//media/photo/background/adherence/page-etancheite.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    display: flex;
+}
+
+.test-choc-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.test-choc-head  h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.choc1 {
+    display: flex;
+    justify-content: space-between;
+}
+.choc1-text {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.choc1-text h1{
+
+}
+.choc1-text h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+    .choc1-text h1::before{
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        height: 2px;
+        width: 100px;
+        background-color:  #e22a25;
+}
+.choc1-photo{
+    position: relative;
+    overflow: hidden;
+    width: 1407px;
+    height: 766px;
+}
+.choc1-photo img{
+    
+    padding-top: 149px;
+}
+.choc1-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.choc1-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.choc2 {
+    display: flex;
+
+}
+.choc2-text {
+    padding-left: 96px;
+    padding-top: 40px;
+}
+.choc2-text h2{  
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.choc2-text h2 span{  
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+}
+.choc2-text ul{
+    margin-bottom: 20px;
+
+}
+
+.choc2-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+
+}
+.choc2-text a{
+    list-style: none;
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    margin-left: 150px;
+
+}
+.choc2-text a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+.choc2-photo{
+    position: relative;
+    overflow: hidden;
+    width: 720px;
+    height: 766px;
+}
+.choc2-photo img{
+ 
+}
+
+
+
+/* ТЕСТЫ БОЛЬШОГО ОБЪЕМА */
+section {
+}
+.test-big-volumeS-head {
+    background-image: url(..//media/photo/background/adherence/page-etancheite.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    display: flex;
+}
+
+.test-big-volume-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.test-big-volume-head  h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.big-volume {
+    display: flex;
+    justify-content: space-between;
+}
+.big-volume-text {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+
+.big-volume-text h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+    .big-volume-text h1::before{
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        height: 2px;
+        width: 100px;
+        background-color:  #e22a25;
+}
+.big-volume-photo{
+    padding-top:138px;
+    
+
+}
+.big-volume-photo img{
+    height: 617px;
+    width: 855px;
+}
+
+
+.big-volume-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.big-volume-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.big-volume-text a{
+    list-style: none;
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    margin-left: 150px;
+
+}
+.big-volume-text a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+.big-volume-text-h2{
+    margin-bottom: 113px;
+}
+
+
+
+
+
+/* ИСПЫТАНИЯ НА ВЗРЫВООПАСНУЮ СРЕДУ */
+
+
+.section {
+}
+.explosiveS-head {
+    background-image: url(..//media/photo/background/adherence/page-etancheite.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    display: flex;
+}
+.container {
+}
+.test-explosive-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.test-explosive-head h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.section {
+}
+.explosiveS {
+    display: flex;
+    justify-content: space-between;
+}
+.explosive {
+    display: flex;
+}
+.explosive-text {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.explosive h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+    .explosive h1::before{
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        height: 2px;
+        width: 100px;
+        background-color:  #e22a25;
+}
+.explosive-text-h2 {
+    margin-bottom: 70px;
+}
+.explosive-photo {
+    padding-top: 184px;
+}
+
+.explosive-photo img{
+    height: 671px;
+    width: 854px;
+}
+
+
+.explosive-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.explosive-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.explosive-text a{
+    list-style: none;
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    margin-left: 150px;
+
+}
+.explosive-text a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+.explosive-text-h2{
+    margin-bottom: 43px;
+}
+
+
+
+
+/* ТЕСТЫ НА КОРРОЗИЮ */
+
+.test-corrosionS-head {
+    background-image: url(..//media/photo/background/adherence/page-etancheite.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    display: flex;
+}
+
+.test-corrosion-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.test-corrosion-head  h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.corrosion1{
+    display: flex;
+    justify-content: space-between;
+}
+.corrosion1-text {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.corrosion1-text h1{
+
+}
+.corrosion1-text h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+    .corrosion1-text h1::before{
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        height: 2px;
+        width: 100px;
+        background-color:  #e22a25;
+}
+.corrosion1-photo{
+    padding-top: 150px;
+    width: 1292px;
+    height: 755px;
+    overflow: hidden;
+    position: relative;
+}
+.corrosion1-photo img{
+    
+    width: 825px;
+    height: 640px;
+}
+.corrosion1-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.corrosion1-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.corrosion2 {
+    display: flex;
+
+}
+.corrosion2-text {
+    padding-left: 96px;
+    padding-top: 40px;
+}
+.corrosion2-text h2{  
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.corrosion2-text h2 span{  
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+}
+.corrosion2-text ul{
+    margin-bottom: 20px;
+
+}
+
+.corrosion2-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+
+}
+.corrosion2-text a{
+    list-style: none;
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    margin-left: 150px;
+
+}
+.corrosion2-text a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+.corrosion2-photo{
+    position: relative;
+    overflow: hidden;
+    width: 709px;
+    height: 640px;
+}
+.corrosion2-photo img{
+    height: 705px;
+    width: 804px;
+}
+
+
+
+/* WOM */
+
+.test-womS-head {
+    background-image: url(..//media/photo/uv/page-vieillisement-uv.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    display: flex;
+}
+
+.test-wom-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.test-wom-head  h1{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.wom1{
+    display: flex;
+    justify-content: space-between;
+}
+.wom1-text {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.wom1-text h1{
+
+}
+.wom1-text h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+    .wom1-text h1::before{
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        height: 2px;
+        width: 100px;
+        background-color:  #e22a25;
+}
+.wom1-photo{
+    padding-top: 198px;
+    width: 3435px;
+    height: 1024px;
+    overflow: hidden;
+    position: relative;
+}
+.wom1-photo img{
+    
+    width: 908px;
+    height: 884px;
+}
+.wom1-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.wom1-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.wom2 {
+    display: flex;
+
+}
+.wom2-text {
+    padding-left: 96px;
+    padding-top: 40px;
+}
+.wom2-text h2{  
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.wom2-text h2 span{  
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+}
+.wom1-text h2 span{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+}
+.wom2-text ul{
+    margin-bottom: 20px;
+
+}
+
+.wom2-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+
+}
+.wom2-text a{
+    list-style: none;
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    margin-left: 150px;
+
+}
+.wom2-text a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+.wom2-photo{
+    position: relative;
+    overflow: hidden;
+    width: 709px;
+    height: 640px;
+}
+.wom2-photo img{
+    height: 705px;
+    width: 804px;
+}
+
+
+/* СИМУЛЯТОР СОЛНЦА */
+.section {
+}
+.test-simulation-sunS-head {
+    background-image: url(..//media/photo/uv/page-vieillisement-uv.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    display: flex;
+}
+.container {
+}
+.test-simulation-sun-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.test-simulation-sun-head h1{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+
+.simulation-sun {
+    display: flex;
+    justify-content: space-between;
+}
+.simulation-sun-text {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.simulation-sun-text h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.simulation-sun-text h1::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 2px;
+    width: 100px;
+    background-color:  #e22a25;
+}
+.simulation-sun-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.simulation-sun-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.simulation-sun2-text {
+    padding-left: 96px;
+    padding-top: 40px;
+}
+.wom1-photo {
+}
+.simulation-sun-photo{
+    padding-top: 143px;
+    width: 2207px;
+    height: 1076px;
+    overflow: hidden;
+    position: relative;
+}
+.simulation-sun-photo img{
+    
+    width: 1012px;
+    height: 933px;
+}
+
+.simulation-sun2-text h2{  
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+
+.simulation-sun2-text ul{
+    margin-bottom: 20px;
+
+}
+
+.simulation-sun2-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+
+}
+.simulation-sun2-text a{
+    list-style: none;
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    margin-left: 150px;
+
+}
+.simulation-sun2-text a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+
+
+
+
+/* XR ИНФРАКРАСНОЕ ИЗЛУЧЕНИЕ */
+.section {
+}
+.test-xrS-head {
+    background-image: url(..//media/photo/uv/page-vieillisement-uv.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    display: flex;
+}
+.test-xr-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.test-xr-head h1{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.container {
+}
+.xr {
+    display: flex;
+    justify-content: space-between;
+}
+.xr-text {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.xr-text h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.xr-text h1:before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 2px;
+    width: 100px;
+    background-color:  #e22a25;
+}
+.xr-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.xr-photo {
+    padding-top: 165px;
+    width: 1362px;
+    height: 855px;
+    overflow: hidden;
+    position: relative;
+}
+.xr-photo img{
+    
+    width: 1153px;
+    height: 989px;
+}
+.xr-text ul{
+    margin-bottom: 20px;
+
+}
+
+.xr-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+
+}
+.xr-text a{
+    list-style: none;
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    margin-left: 150px;
+
+}
+.xr-text a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+
+
+
+/* UVA */
+
+.test-uvaS-head {
+    background-image: url(..//media/photo/uv/page-vieillisement-uv.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    display: flex;
+}
+.test-uva-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.test-uva-head h1{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.container {
+}
+.uva {
+    display: flex;
+    justify-content: space-between;
+}
+.uva-text {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.uva-text h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.uva-text h1:before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 2px;
+    width: 100px;
+    background-color:  #e22a25;
+}
+.uva-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.uva-photo {
+    padding-top: 208px;
+    width: 1395px;
+    height: 906px;
+    overflow: hidden;
+    position: relative;
+}
+.uva-photo img{
+    
+    width: 1153px;
+    height: 989px;
+}
+.uva-text ul{
+    margin-bottom: 20px;
+
+}
+
+.uva-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+
+}
+.uva-text a{
+    list-style: none;
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    margin-left: 150px;
+
+}
+.uva-text a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+
+
+
+
+/* ВЫНОСЛИВОСТЬ КРАСКИ ADHERENCE PEINTURE */
+.section {
+}
+.test-adherence-peintureS-head {
+}
+.container {
+}
+.test-adherence-peinture-head {
+}
+.adherence-peinture {
+}
+.adherence-peinture-text {
+}
+.adherence-peinture-photo {
+}
+.test-adherence-peintureS-head {
+    background-image: url(..//media/photo/background/adherence/page-etancheite.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    display: flex;
+}
+.test-adherence-peinture-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.test-adherence-peinture-head h1{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.container {
+}
+.adherence-peinture {
+    display: flex;
+    justify-content: space-between;
+}
+.adherence-peinture-text {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.adherence-peinture-text h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.adherence-peinture-text h1:before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 2px;
+    width: 100px;
+    background-color:  #e22a25;
+}
+.adherence-peinture-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.adherence-peinture-photo {
+    padding-top: 66px;
+    width: 1120px;
+    height: 696px;
+    overflow: hidden;
+    position: relative;
+}
+.adherence-peinture-photo img{
+    
+    width: 1153px;
+    height: 989px;
+}
+.adherence-peinture-text ul{
+    margin-bottom: 20px;
+
+}
+
+.adherence-peinture-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+
+}
+.adherence-peinture-text a{
+    list-style: none;
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    margin-left: 150px;
+
+}
+.adherence-peinture-text a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+
+/* 
+МЕХАНИЧЕСКАЯ ВЫНОСЛИВОСТЬ
+ */
+
+
+.test-adherence-mecaniceS-head {
+    background-image: url(..//media/photo/background/adherence/page-etancheite.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    display: flex;
+}
+.test-adherence-mecanice-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.test-adherence-mecanice-head h1{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.container {
+}
+.adherence-mecanice {
+    display: flex;
+    justify-content: space-between;
+}
+.adherence-mecanice-text {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.adherence-mecanice-text h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.adherence-mecanice-text h1:before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 2px;
+    width: 100px;
+    background-color:  #e22a25;
+}
+.adherence-mecanice-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.adherence-mecanice-video {
+    padding-top: 66px;
+    width: 1772px;
+    height: 831px;
+    overflow: hidden;
+    position: relative;
+}
+source{
+    
+    width: 1153px;
+    height: 989px;
+}
+.adherence-mecanice-text ul{
+    margin-bottom: 20px;
+
+}
+
+.adherence-mecanice-text li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+
+}
+.adherence-mecanice-text a{
+    list-style: none;
+    text-decoration: none;
+    color:  #333333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    margin-left: 150px;
+
+}
+.adherence-mecanice-text a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+.experience-appearance-details-head h1{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.section {
+}
+.experience-appearance-detailsS-head {
+    background-image: url(..//media/photo/background/adherence/page-etancheite.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    display: flex;
+}
+.container {
+}
+.experience-appearance-details-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+
+.experience-appearance-details {
+    display: flex;
+}
+.column1 img{
+  
+}
+.row1 {
+    display:flex;
+}
+.column1 h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+  
+   
+}
+.column1 h1:before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    height: 2px;
+    width: 100px;
+    background-color:  #e22a25;
+    
+}
+.column1  h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.column1  li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.row1-1 {
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+.row1-2 {
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+
+}
+.column2 {
+    overflow: hidden;
+    max-width: 34%;
+}
+.column2-row1 {
+    background-color:red;
+   
+}
+.column2-row1 h1{
+    color: white;
+    font-size: 3.9rem;
+    font-weight: 400;
+    line-height: 1.4;
+   margin: 0;
+   text-align: center;
+    padding: 72px 0;
+}
+
+.column2-row1 h2{
+    background-color:red;
+   
+}
+.column2-row2 {
+    background-color: #dcdadb ;
+    height: 100%;
+    padding-left: 30px;
+    padding-right:30px;
+    text-align: left;
+}
+.column2-row2 h1 {
+    color:red;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 0;
+
+    padding-top: 30px;
+    
+
+}
+.column2-row2 h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.column2-row2 li{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4rem;
+}
+.img1{
+background-image: url(../media/photo/background/appereance-details/RAYURE-FROTTEMENT-2-scaled.jpeg);
+background-size: cover;
+height: 600px;
+
+}
+.img2{
+    background-image: url(../media/photo/background/appereance-details/Rayure-scaled.jpeg);
+    background-size: cover;
+    height: 600px;
+
+
+}
+.img3{
+    background-image: url(../media/photo/background/appereance-details/CLIMATIQUE-3-1024x768.jpeg);
+    background-size: cover;
+    height: 600px;
+
+
+}
+.img4{
+    background-image: url(../media/photo/background/appereance-details/COTATION-EDG-scaled.jpeg);
+    background-size: cover;
+    height: 600px;
+    background-position-x: -149px;
+
+ }
+
+
+
+
+
+/* КОНТАКТЫ */
+
+
+.section {
+}
+.contactS-head {
+   
+        background-image: url(..//media/photo/background/maps/atex.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow-x:hidden;
+        display: flex;
+    
+}
+.container {
+}
+.contact-head {
+}
+.contact-head {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 50px 0;
+}
+.contact-head  h1{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0%;
+    color: white;
+    white-space: nowrap;
+    margin-right: 90px;
+}
+.contacts {
+    display: flex;
+    background-color: #e5e5e5;;
+}
+
+
+.contacts-coumn1 {
+    margin-right: 139px;
+}
+.contacts-coumn1 h1{
+    font-size: 4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+}
+.contacts-coumn1 h1:before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 24px;
+    height: 2px;
+    width: 100px;
+    background-color:  #e22a25;
+  
+}
+.contacts-coumn1-row {
+    display: flex;
+  
+        margin-left: 93px;
+}
+
+.contacts-coumn1-row img{
+    margin-right: 58px;
+}
+.contacts-coumn1-row1 {
+    display: flex;
+    flex-direction: column;
+}
+.contacts-coumn1-row1 h2{
+    font-weight: 400;
+    font-size: 3.4rem;
+   
+}
+.contacts-coumn1-row1 a{
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: red;
+}
+.contacts-coumn1-row1 h3{
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #333333;
+}
+.column2 {
+
+    padding-top: 7%;
+}
+
+.contacts-column2-inputs h1{
+    color: red;
+    font-weight: 300;
+    font-size: 3.1rem;
+    margin: 0 0 10px 0;
+}
+
+.maps {
+}
+.agree1 input{
+    width: 98%;
+    height: 55px;
+    font-size: 1.7rem;
+    padding-left: 4%;
+    margin-bottom: 20px;
+
+}
+.agree2 label{
+   
+    font-size: 1.7rem;
+   
+  
+
+}
+.agree2 {
+    margin-bottom: 28px;
+    display: flex;
+}
+
+
+
+.contacts-column2-inputs a {
+    
+    text-decoration: none;
+    color:  #333333;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: #dadbdc;
+    align-items: center;
+}
+.contacts-column2-inputs a:hover {
+    background-color: #e22a25;
+    color: white;
+    transition: .3 ease;
+}
+.contacts-column2-inputs{
+    background-color: white;
+    display: block;
+ 
+    width: 91%;
+    height: 36%;
+}
+
+
+
+
+.label {
+    display:flex;
+}
+.label1{
+    color: red;
+    font-weight: 300;
+    font-size: 3.3rem;
+    padding: 14px;
+    text-align:center;
+    cursor: pointer;
+}
+.label1.is-active{
+    color: rgb(0, 0, 0);
+    background-color: #dadbdc;
+    font-weight: 300;
+    font-size: 2.3rem;
+  
+    text-align:center;
+    padding-left: 5%;
+    padding-right: 66%;
+}
+.agree-inputs.is-active{
+
+    display: block;
+}
+.agree-inputs{
+    padding: 14px;
+    display: none;
+}
+#agree{
+    width: 10%;
+    height: 10%;
+    display: flex;
+}
+
+
+.select {
+}
+.select1 {
+    background-color: #e22a25;
+    padding: 50px;
+    cursor: pointer;
+}
+.select1:hover{
+    background-color: #e76f6b;
+}
+.select2 {
+    background-color: #e5e5e5;
+    padding: 30px;
+   display: none;
+}
+.active{
+    background-color: #180403;
+}
+
+.status-message{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status{
+    padding-right: 50%;
+    font-size: 1.7rem;
+}
